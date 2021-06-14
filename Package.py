@@ -5,7 +5,7 @@ class Package:
     def __init__(self, bmi, facilities):
         self.__bmi = bmi
         self.__facilities = facilities
-        self.__packageId = IDGenerator.generateCustomerID()
+        self.__packageId = IDGenerator.generatePackageID()
 
     def setBMI(self, bmi):
         self.__bmi = bmi
